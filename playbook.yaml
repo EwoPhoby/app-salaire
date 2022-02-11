@@ -1,0 +1,11 @@
+-hosts:
+
+  tasks:
+  -name: installation  
+   yum:
+    name: 
+    - mariadb
+    - mariadb-server
+    - php
+    state: present
+
