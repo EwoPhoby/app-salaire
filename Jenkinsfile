@@ -3,7 +3,7 @@ node{
       checkout scm
     }
     stage('clone'){
-      git 'https://github.com/EwoPhoby/app-salaire.git'
+      git 'https://github.com/EwoPhoby/app-salaire'
     }
     stage('Ansible') {
       ansiblePlaybook (
